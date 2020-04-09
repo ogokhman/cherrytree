@@ -9,6 +9,7 @@ $username        = CrcUtil::GetUserName();
 $accountid       = CrcUtil::CrcCgiParams('accountid', '');
 $UA              = new UserAccess();
 
+
 if ( ! $UA->IsValidLogin( array('fromloginscreen'=>true ) ))
 {
     $url = '/casa/index.php?action=Logout';
@@ -18,7 +19,7 @@ if ( ! $UA->IsValidLogin( array('fromloginscreen'=>true ) ))
 }
 
 $DEFAULTNAME = 'Unknown User';
-$DEFAULTID   = 'crccf';
+$DEFAULTID   = 'aimco';
 
 $CasaConfig = CrcUtil::GetJSConfig();
 $ver        = CrcUtil::GetJSVersion();
