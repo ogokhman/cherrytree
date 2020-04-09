@@ -1,0 +1,9 @@
+1. Create loacal repository
+
+2. Adding new file to a repository 
+
+   git add <filename> 
+   git commit <filename>
+   git push origin 
+
+3. Adding new directory to repository
